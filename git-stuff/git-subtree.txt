@@ -1,0 +1,15 @@
+
+https://blog.developer.atlassian.com/the-power-of-git-subtree/?_ga=1-188193192-1651332521-1422522900
+https://www.atlassian.com/git/tutorials/git-subtree
+
+
+
+# Testing subtree entire repo
+git subtree add --prefix kechwo-gh-pages https://github.com/kechwo/kechwo.github.io.git master --squash
+git subtree pull --prefix kechwo-gh-pages https://github.com/kechwo/kechwo.github.io.git master --squash
+
+
+# Testing subtree specific folder
+
+
+# Testing subtree specific file
